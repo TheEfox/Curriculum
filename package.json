@@ -5,8 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "component": "ng generate component"
+    "watch": "ng build --watch --configuration development"
   },
   "prettier": {
     "printWidth": 100,
