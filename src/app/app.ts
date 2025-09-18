@@ -1,5 +1,7 @@
-import { Component, signal } from '@angular/core';
+import { Component, OnInit, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { initFlowbite } from 'flowbite';
+
 import { Home } from "./components/home/home";
 
 @Component({
@@ -8,6 +10,10 @@ import { Home } from "./components/home/home";
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
-export class App {
-  protected readonly title = signal('mainpage');
+export class App implements OnInit {
+  protected readonly title = signal('Curriculum');
+
+  ngOnInit(): void {
+    initFlowbite();
+  }
 }
