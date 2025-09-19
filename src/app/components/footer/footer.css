@@ -1,8 +1,8 @@
 footer svg {
-  transition: transform 0.2s, color 0.2s;
+    transition: transform 0.2s, color 0.2s;
 }
 
 footer svg:hover {
-  transform: scale(1.2);
-  color: #9ca3af; /* Tailwind gray-400 */
+    transform: scale(1.2);
+    color: #9ca3af; /* Tailwind gray-400 */
 }
