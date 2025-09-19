@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common'; // Necesario para *ngFor
+import { CommonModule } from '@angular/common';
+import { Footer } from "../footer/footer"; // Necesario para *ngFor
 
 @Component({
   selector: 'app-about',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, Footer],
   templateUrl: './about.html',
   styleUrls: ['./about.css']
 })
