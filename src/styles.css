@@ -7,5 +7,7 @@
 @source "../node_modules/flowbite";
 
 body {
-    background-color: rgb(184, 184, 184);
+    background: #D8EDEC;
+    background: radial-gradient(circle, rgba(216, 237, 236, 1) 0%, rgba(133, 204, 162, 1) 50%, rgba(43, 86, 112, 1) 100%);
+    /* A la espera del diseño Marca personal para ajustarlo al color de fondo */
 }
